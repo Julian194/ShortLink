@@ -1,0 +1,4 @@
+const linkEl = document.querySelector('#short-link')
+const html = "<%= j render 'link', link: @link.shortened_url %>";
+
+linkEl.innerHTML = html
